@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomepageController@index')->name('homepage');
+Route::get('/bonus', 'BonusController@index')->name('bonus');
